@@ -13,8 +13,8 @@ We strongly recommend using a `conda` or `venv` virtual environment with Python 
 First, clone the repository, making sure to initialize the `fairseq` submodule.
 
 ```bash
-git clone --recurse-submodules https://github.com/P1ping/TokAN.git
-cd TokAN
+git clone --recurse-submodules https://github.com/P1ping/TokAN-Legacy.git
+cd TokAN-Legacy
 ```
 
 If you forgot the `--recurse-submodules` flag, run `git submodule update --init --recursive` after cloning.

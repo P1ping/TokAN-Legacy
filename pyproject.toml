@@ -31,7 +31,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/P1ping/TokAN.git"
+Homepage = "https://github.com/P1ping/TokAN-Legacy.git"
 
 [tool.setuptools]
 packages = ["tokan"]

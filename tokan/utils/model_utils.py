@@ -31,26 +31,26 @@ class ModelManager:
         },
         # Download from HuggingFace
         "hubert_km": {
-            "repo_id": "Piping/TokAN",
+            "repo_id": "Piping/TokAN-Legacy",
             "revision": "main",
             "file_path": "hubert_km/hubert_km_libritts_l17_1000.pt",
             "local_dir": BASE_DIR,
         },
         "token_to_token": {
-            "repo_id": "Piping/TokAN",
+            "repo_id": "Piping/TokAN-Legacy",
             "revision": "main",
             "file_path": "token_to_token/tokan-t2t-base-paper/model.pt",
             "local_dir": BASE_DIR,
             "auxiliary_files": ["dict.src.txt", "dict.tgt.txt", "dict.aux.txt"],
         },
         "token_to_mel_v1": {  # Regression-based duration predictor
-            "repo_id": "Piping/TokAN",
+            "repo_id": "Piping/TokAN-Legacy",
             "revision": "main",
             "file_path": "token_to_mel/tokan-t2m-v1-paper/model.ckpt",
             "local_dir": BASE_DIR,
         },
         "token_to_mel_v2": {  # Flow-matching based duration predictor
-            "repo_id": "Piping/TokAN",
+            "repo_id": "Piping/TokAN-Legacy",
             "revision": "main",
             "file_path": "token_to_mel/tokan-t2m-v2-paper/model.ckpt",
             "local_dir": BASE_DIR,
