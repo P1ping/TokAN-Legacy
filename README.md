@@ -1,5 +1,11 @@
 # TokAN: Accent Normalization Using Self-Supervised Discrete Tokens
 
+> [!IMPORTANT]
+> This is the **legacy** repository for the Interspeech 2025 conference paper.
+> An extended version with a cleaner, updated implementation is now
+> available at **[P1ping/TokAN](https://github.com/P1ping/TokAN)** — please head
+> there for the latest code and models.
+
 This repository contains the official implementation and pretrained models for the Interspeech 2025 paper: **"Accent Normalization Using Self-Supervised Discrete Tokens with Non-Parallel Data"**.
 
 **📄 [Paper](https://arxiv.org/abs/2507.17735) | 🎵 [Demo](https://p1ping.github.io/TokAN-Demo/)**
